@@ -1,24 +1,24 @@
 {
-	"name":"Spiritus",
-	"thumbnail":"spiritus.png",
+	"name":"Beyond",
+	"thumbnail":"beyond.png",
 	"templateType":"standard",
 	"pageTypes": ["home"], 
 	"tags": {
-		"en": ["clean","fancy","bold","positive","spirit","fit","healthy","flat"]
+		"en": ["clean","fancy","bold","positive","spirit","fit","healthy","flat", "adventure", "travel"]
 	},
 	"images":[
-        "images/feature-bg.jpg"
+        "images/feature.jpg"
     ],
 	"colorSwatches":
 	{
         "Swatch 1": {
             "color1":"#ffffff",
-            "color2":"#0FB1A5",
-            "color3":"#D40000",
+            "color2":"#0f1f39",
+            "color3":"#e2832f",
             "color4":"#ffffff",
-            "color5":"#264B48",
+            "color5":"#636469",
             "color6":"#ffffff",
-            "color7":"#0FB1A5"
+            "color7":"#42474b"
         },
         "Swatch 2": {
            	"color1":"#ffffff",
@@ -58,9 +58,9 @@
         }
 	},
 	"fontSwatch": {
-		"title": "Montserrat / Trebuchet MS",
+		"title": "Cabin / Lobster",
 		"font1": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
 			"font-size": "36px",
 			"font-weight": "700",
 			"line-height": "50px",
@@ -70,18 +70,18 @@
 			"letter-spacing": "inherit"
 		},
 		"font2": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-			"font-size": "24px",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+			"font-size": "28px",
 			"font-weight": "700",
-			"line-height": "36px",
+			"line-height": "38px",
 			"color": "@color-swatch2",
 			"background-color": "@color-swatch2",
 			"background-color-hover": "@color-swatch2",
 			"letter-spacing": "inherit"
 		},
 		"font3": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-			"font-size": "20px",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+			"font-size": "24px",
 			"font-weight": "700",
 			"line-height": "36px",
 			"color": "@color-swatch2",
@@ -90,27 +90,27 @@
 			"letter-spacing": "inherit"
 		},
 		"font4": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-			"font-size": "18px",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+			"font-size": "20px",
 			"font-weight": "700",
-			"line-height": "36px",
+			"line-height": "32px",
 			"color": "@color-swatch2",
 			"background-color": "@color-swatch4",
 			"background-color-hover": "@color-swatch4",
 			"letter-spacing": "inherit"
 		},
 		"font5": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-			"font-size": "16px",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+			"font-size": "18px",
 			"font-weight": "400",
-			"line-height": "25px",
+			"line-height": "28px",
 			"color": "@color-swatch5",
 			"background-color": "@color-swatch5",
 			"background-color-hover": "@color-swatch5",
 			"letter-spacing": "inherit"
 		},
 		"font6": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
 			"font-size": "18px",
 			"font-weight": "700",
 			"line-height": "42px",
@@ -121,7 +121,7 @@
 			"letter-spacing": "inherit"
 		},
 		"font7": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
 			"font-size": "16px",
 			"font-weight": "700",
 			"line-height": "50px",
@@ -131,7 +131,7 @@
 			"letter-spacing": "inherit"
 		},
 		"font8": {
-			"font-family": "\"Sniglet\", Geneva, Gadget, sans-serif",
+			"font-family": "\"Lobster\", Verdana, sans-serif",
 			"font-size": "72px",
 			"font-weight": "400",
 			"line-height": "78px",
@@ -141,7 +141,7 @@
 			"letter-spacing": "inherit"
 		},
 		"font9": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
 			"font-size": "24px",
 			"font-weight": "700",
 			"line-height": "34px",
@@ -151,7 +151,7 @@
 			"letter-spacing": "inherit"
 		},
 		"font10": {
-			"font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+			"font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
 			"font-size": "24px",
 			"font-weight": "700",
 			"line-height": "44px",
