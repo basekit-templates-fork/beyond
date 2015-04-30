@@ -373,11 +373,7 @@
 			background-color:  #fff;
 			border-radius: 60px;
 			@media @mobile {
-				-webkit-transform: scale(0.75);
-				-moz-transform: scale(0.75);
-				-o-transform: scale(0.75);
-				-ms-transform: scale(0.75);
-				transform: scale(0.75);
+				opacity: 0.3;
 			}
 
 			&:after {
@@ -437,11 +433,7 @@
 				color: @color-swatch3;
 			}
 			@media @mobile {
-				-webkit-transform: scale(0.75);
-				-moz-transform: scale(0.75);
-				-o-transform: scale(0.75);
-				-ms-transform: scale(0.75);
-				transform: scale(0.75);
+				opacity: 0.3;
 			}
 			&:after {
 				font-size: 16px;
@@ -858,7 +850,7 @@
 		padding: 0 1.6em;
 		padding-left: 50px;
 		background-position: 18px center;
-		@media @mobile-up {
+		@media only screen and (min-width:700px) and (orientation:portrait) {
 			padding: 0;
 			border: none;
 			box-shadow: none;
