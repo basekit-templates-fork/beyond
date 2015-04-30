@@ -37,7 +37,7 @@
 			-ms-flex-align: center;
 			align-items: center;
 		}
-	
+
 
         label {
         	// Flex
@@ -59,9 +59,9 @@
 		    @media @mobile {
 		    	width: 100%;
 		    	display: block;
-		    }	   
+		    }
         }
-        input {  
+        input {
         	// Flex
             -webkit-box-ordinal-group: 1;
 		    -moz-box-ordinal-group: 1;
@@ -104,7 +104,7 @@
 .widget.blogpostlist {
 	.block-widget;
 	.blog-post-list {
-		
+
 		.blog-post-item {
 			.clearfix;
 			position: relative;
@@ -150,11 +150,11 @@
 				    font-size: bkscale(@font-swatch1-font-size, 0.7);
 				    line-height: bkscale(@font-swatch1-line-height, 0.7);
 				}
-			
+
 				@media @mobile {
 				    font-size: bkscale(@font-swatch1-font-size, 0.4);
 				    line-height: bkscale(@font-swatch1-line-height, 0.4);
-				  
+
 				}
 
 				// Page flip corner
@@ -175,20 +175,17 @@
 
 			.blog-post-summary, .blog-post-body {
 				margin: 2.5em 0 1em;
-				
-			
+
 				@media @mobile {
-					margin: 1.5em 0;
+					margin: 1.5em 0 0 0;
 					margin-left: 0;
 				}
-				
 			}
 
 			.blog-post-more-link {
 				float: left;
-				a {
-				}
 			}
+
 			.blog-post-date {
 				color: fade(@color-swatch5, 50%);
 				line-height: 1;
@@ -208,7 +205,7 @@
 }
 
 
-// ============================================================================================================================== 
+// ==============================================================================================================================
 // Widget: Blog Post
 
 .widget.blogpost {
@@ -241,7 +238,7 @@
 		.blog-post-title-content-wrap {
 
 
-			
+
 			// Title
 			h1.blog-post-title {
 				background-color: @color-swatch2;
@@ -271,7 +268,7 @@
 			.blog-post-content, .blog-post-body {
 				float: left;
 				width: 70%;
-				padding: 0 50px 40px 40px; 
+				padding: 0 50px 40px 40px;
 				@media @bp-blog-small {
 			    	float: none;
 			    	width: auto;
@@ -283,7 +280,7 @@
 		.blog-post-metadata {
 			// Date
 			time.blog-post-publish-date {
-				
+
 				border-bottom: 1px solid @color-swatch2;
 				display: block;
 				float: right;
