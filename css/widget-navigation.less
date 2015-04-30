@@ -18,7 +18,7 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 		-o-transition: left 0.25s ease-in-out;
 		transition: left 0.25s ease-in-out;
 	}
-	
+
 	// Shift content to the left when nav is open
 	&.navOpen {
 		@media @tablet {
@@ -50,7 +50,7 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 		width: @mobileNavWidth;
 	}
 
-	
+
 }
 
 
@@ -87,7 +87,7 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 				border-bottom: 1px solid fade(@color-swatch2, 20%);
 			}
 		}
-		
+
 		// Item Text
 		& > .text, a .text {
 			padding: 0 0.5em;
@@ -192,9 +192,8 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 	// ---- Open folder
 	ul li:hover ul {
 		background-color:darken(@color-swatch2, 3%);
-		min-width: 100%;
 		border-radius: 0 0 5px 5px;
-		max-width: 200px;
+		width: 200px;
 		z-index: 2000;
 		margin: 0;
 
@@ -217,7 +216,7 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 
 
 	// ---- Collapsible nav
-	
+
 	// Trigger Icon: Hamburger
 	a.pull {
 		// Dessktop
@@ -232,7 +231,7 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 			top: 0;
 			border-radius: 60px 0 0 60px;
 			margin: 0 0 0 auto;
-			
+
 	        &:hover {
 	           cursor: pointer;
 	        }
@@ -297,12 +296,12 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 			background-color: mix(@color-swatch2, #fff, 6%);
 			right: (-@tabletNavWidth + 10);
 			width: (@tabletNavWidth - 20);
-			
+
 		}
 		@media @mobile {
 			right: (-@mobileNavWidth + 10);
 			width: (@mobileNavWidth - 20);
-		}	
+		}
 		li {
 			@media @tablet {
 				margin: 0;
@@ -310,5 +309,5 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 				display: block;
 			}
 		}
-	}	
+	}
 }
