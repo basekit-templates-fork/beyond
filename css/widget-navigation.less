@@ -137,6 +137,38 @@ div.widget .extendednavigation ul.align-right, div.widget.extendednavigation ul.
 		}
 	}
 
+	// ---- Selected Item
+	ul li.selected:not(.folder) {
+		// underline
+		a:after {
+			content: "";
+			display: block;
+			height: 3px;
+			background-color: rgba(255, 255, 255, 0.76);
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+			@media @tablet {
+				display: none;
+			}
+		}
+	}
+
+	.folder.selected  li.selected {
+		a {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+		a:after {
+			display: none;
+		}
+	}
+
 
 
 
